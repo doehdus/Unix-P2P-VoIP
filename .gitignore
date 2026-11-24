@@ -1,0 +1,27 @@
+#Build files
+*.o
+*.a
+voicechat
+audio_test
+
+#Runtime files
+logs/*
+recordings/*
+!logs/.gitkeep
+!recordings/.gitkeep
+
+#Audio files
+*.wav
+*.raw
+*.pcm
+
+#Temporary files
+*.swp
+*.swo
+*~
+core
+.DS_Store
+
+#IDE files
+.vscode/
+.idea/
